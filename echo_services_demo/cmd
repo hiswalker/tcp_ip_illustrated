@@ -1,0 +1,12 @@
+[install]
+yum install inetd
+or 
+yum install xinetd
+
+[dir]
+/etc/xinetd.d/echo-dgram
+/etc/xinetd.d/echo-stream
+
+[services]
+service xinetd start
+service xinetd stop

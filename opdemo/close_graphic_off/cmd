@@ -1,0 +1,5 @@
+# open cmd env; close graphic env
+systemctl set-default multi-user.target
+
+# open graphic env;
+systemctl set-default graphical.target
