@@ -1,0 +1,17 @@
+[default error message]
+/var/log/message
+
+[conf]
+man xinetd
+man xinetd.conf
+-- log_type
+man xinetd.log
+
+[prblems]
+# ?1 : open file log file err
+#    log_type : FILE /home/tank/log/echo.log
+#    but the /home/tank/log directory is not exists
+
+# ?2 : service port not open 
+#    log_on_success : HOST PID USERID TRAFFIC
+#    err message: echo service should not be redicted service, TRAFFIC is wrong 

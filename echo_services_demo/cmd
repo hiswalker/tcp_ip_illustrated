@@ -10,3 +10,6 @@ yum install xinetd
 [services]
 service xinetd start
 service xinetd stop
+
+[cmds]
+netstat -nltup
